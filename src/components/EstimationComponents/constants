@@ -1,0 +1,8 @@
+export const columns = (t) => [
+  { id: 'version', label: t("version"), sortable: true },
+  { id: 'project', label: t("project"), sortable: true },
+  { id: 'client', label: t("client"), sortable: true },
+  { id: 'created_date', label: t("created_date"), sortable: true },
+  { id: 'last_modified_date', label: t("last_modified_date"), sortable: true },
+  { id: 'status', label: t("status"), sortable: true },
+];

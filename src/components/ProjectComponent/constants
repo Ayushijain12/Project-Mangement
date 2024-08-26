@@ -1,0 +1,9 @@
+export const columns = (t) => [
+  { id: 'name', label: t("project_name"), sortable: true },
+  { id: 'number', label: t("project_number"), sortable: true },
+  { id: 'area', label: t("area_location"), sortable: false },
+  { id: 'address', label: t("address"), sortable: false },
+  { id: 'contact', label: t("contact"), sortable: false },
+  { id: 'manager', label: t("manager"), sortable: false },
+  { id: 'staff', label: t("staff"), sortable: false },
+];
