@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Project Name
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This project is a web application developed using Vite, React Toolkit, and i18next for internationalization. The application includes various features such as Redux state management, a NotFound page, Error Boundary, Protected Routes, and CRUD operations for projects and estimates. The mock API is built with Node.js, and the design is implemented using Material-UI for simplicity.
 
-## Available Scripts
+## Project Setup and Installation Instructions
 
-In the project directory, you can run:
+### Prerequisites
+Ensure you have the following software installed:
+- Node.js (>= 14.x)
+- npm or yarn
 
-### `npm start`
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone [your-repository-link]
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+cd [your-project-directory]
+npm install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Description of the Project Structure
+public/: Static files and we have locales folder that i've store english, french and hindi json file for i18next 
+src/: /Components, /constants , /redux, /utils folder we have 
+components/: 
+Authcomponent/ ErrorBoundary, NotFound, ProtectedRoute
+CustomComponents / Resuable components 
+Dashboard / Used dashboard static UI
+EstimationComponents &  ProjectComponent we have CRUD opreation of estimation and project
+features/: Redux slices and hooks.
+styles/: Global and component-specific styles.
+utils/: Utility functions and constants.
+i18n/: i18next translation files and configuration.
+App.jsx: Main application component.
+main.js: Entry point for the React application.
+mock-api/: Mock API code (Node.js).
 
-### `npm test`
+## Mock API link provide in diff git respority 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Explanation of Implemented Features
+Redux: State management for handling global application state.
+NotFound Page: Custom page for handling 404 errors.
+Error Boundary: Component to catch JavaScript errors anywhere in the component tree.
+Protected Routes: Routing mechanism to protect routes based on user authentication.
+Authentication: Login, register, forgot password, verify OTP, and change password functionalities.
+Project CRUD: Create, read, update, and delete operations for projects.
+Estimate CRUD: Create, read, update, and delete operations for estimates.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Estimation past wtih logic
+![image](https://github.com/user-attachments/assets/374b6d71-8ca0-4599-9fc3-6671a9ce1480)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Login Page
+![image](https://github.com/user-attachments/assets/aace6363-1d23-4b4a-be5f-4928f2c406ab)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Register Page
+![image](https://github.com/user-attachments/assets/8d0b5ef4-904c-4def-bdf7-adf92815c8ab)
 
-### `npm run eject`
+## Forget Password
+![image](https://github.com/user-attachments/assets/e2180d9d-fa0e-4e7b-8732-17ac75890e05)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Verify OTP
+This is currently statis OTP, i'm getting from database right now
+![image](https://github.com/user-attachments/assets/40f85783-71d3-4587-95b0-52082bee3fb7)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Change Password
+![image](https://github.com/user-attachments/assets/bd41e320-2758-4426-988e-c537e383e93e)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Dashboard in hindi 
+Simple UI and used i18next
+![image](https://github.com/user-attachments/assets/96c3fe0a-300f-4fd5-a1be-6ef0a9dea11f)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project List
+![image](https://github.com/user-attachments/assets/46e8e870-9f4b-483b-a8bb-91c99995d0e8)
 
-## Learn More
+## Project add
+![image](https://github.com/user-attachments/assets/236083aa-3e43-4977-acb8-079df1477266)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Let me know if you need any more changes or if there’s anything else I can help with!
