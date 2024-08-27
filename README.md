@@ -16,7 +16,7 @@ Ensure you have the following software installed:
    git clone [your-repository-link]
 
 cd [your-project-directory]
-# npm run dev
+### npm run dev
 
 ## Description of the Project Structure
 public/: Static files and we have locales folder that i've store english, french and hindi json file for i18next 
