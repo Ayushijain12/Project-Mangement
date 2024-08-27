@@ -16,23 +16,23 @@ Ensure you have the following software installed:
    git clone [your-repository-link]
 
 cd [your-project-directory]
-###### npm run dev
+#### npm run dev
 
 ## Description of the Project Structure
-public/: Static files and we have locales folder that i've store english, french and hindi json file for i18next 
-src/: /Components, /constants , /redux, /utils folder we have 
-components/: 
+###### public/: Static files and we have locales folder that i've store english, french and hindi json file for i18next 
+###### src/: /Components, /constants , /redux, /utils folder we have 
+###### components/: 
 Authcomponent/ ErrorBoundary, NotFound, ProtectedRoute
 CustomComponents / Resuable components 
 Dashboard / Used dashboard static UI
 EstimationComponents &  ProjectComponent we have CRUD opreation of estimation and project
-features/: Redux slices and hooks.
-styles/: Global and component-specific styles.
-utils/: Utility functions and constants.
-i18n/: i18next translation files and configuration.
-App.jsx: Main application component.
-main.js: Entry point for the React application.
-mock-api/: Mock API code (Node.js).
+###### features/: Redux slices and hooks.
+###### styles/: Global and component-specific styles.
+###### utils/: Utility functions and constants.
+###### i18n/: i18next translation files and configuration.
+###### App.jsx: Main application component.
+###### main.js: Entry point for the React application.
+###### mock-api/: Mock API code (Node.js).
 
 ## Mock API link provide in diff git respority 
 https://github.com/Ayushijain12/Project-managemnt-backend
